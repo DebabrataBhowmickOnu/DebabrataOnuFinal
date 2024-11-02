@@ -31,7 +31,7 @@ const BookCall = () => {
                 <div className={styles.Calendly_container}>
                     <div
                         className="calendly-inline-widget"
-                        data-url="https://calendly.com/shuvo-dev-rankupper/savvycle-1"
+                        data-url="https://calendly.com/debabrata-developer/30min"
                         style={{ width: "100%", minWidth: "320px", height: "700px", overflow: "hidden" }}
                     ></div>
                 </div>

@@ -25,7 +25,9 @@ const Skills = () => {
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>JavaScript ( react, angular)</li>
+                        <li>JavaScript</li>
+                        <li>React Js</li>
+                        <li>Angular</li>
                         <li>next Js </li>
                     </ul>
 
@@ -64,6 +66,10 @@ const Skills = () => {
                     <ul>
                         <li>UI/UX</li>
                         <li>Figma / Scratch</li>
+                        <li>UI/UX Audit</li>
+                        <li>Design system creation</li>
+                        <li>Responsive design testing</li>
+                        <li>Web UI Elements Design</li>
                     </ul>
                 </div>
                 <div className={styles.skills_1}>
@@ -79,7 +85,7 @@ const Skills = () => {
                     <h3>CMS</h3>
                     <ul>
                         <li>Wordpress</li>
-                        <li>webflow</li>
+                        <li>Squarespace</li>
                         <li>shopify</li>
                         <li>wix</li>
                     </ul>
