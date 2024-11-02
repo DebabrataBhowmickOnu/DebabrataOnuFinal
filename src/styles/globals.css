@@ -13,9 +13,160 @@
     --foreground: #ededed;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sarpanch';
+  src: url('../pages/fonts/Sarpanch-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+body{
+  background: #1C1C21;
+  font-family: 'Sarpanch', 'Arial', sans-serif;
+}
+._cUP1np9gMvFQrcPftuf {
+  display: flex;
+  justify-content: end !important;
+}
+.main_container{
+ padding-left: 12%;
+ padding-right: 12%;
+}
+
+.Work_company{
+  padding-top: 150px;
+  padding-bottom: 138px;
+}
+.why_me{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.experience{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.Skills{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.Projects{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.BookCall{
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+.SocialMedia{
+  position: relative;
+}
+/* @media screen and (max-width:1500px) {
+  .main_container{
+    max-width: 100%;
+    padding: 0 50px;
+  }
+} */
+ .my-slider{
+   transition-timing-function: linear !important;
+ }
+ .slider_item_container p{
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(148, 148, 148, 1);
+}
+.slider_item_container h3{
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 700;
+  color: rgba(10, 232, 94, 1);
+  margin-top: 20px;
+}
+.slider_item_container {
+  overflow: hidden;
+}
+
+
+
+.tns-nav button{
+  border: 1px solid rgb(115, 98, 98);
+  height: 10px;
+    width: 10px;
+    margin-right: 20px;
+    background-color: rgba(217, 217, 217, 0.28);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.tns-nav-active{
+  background-color: rgba(10, 232, 94, 1) !important;
+  height: 10px !important;
+  width: 100px !important;
+  border-radius: 5px !important;
+}
+.tns-nav {
+  position: absolute;
+  bottom: 42px;
+}
+
+@media (max-width: 768px) {
+  .main_container{
+    max-width: 100% !important;
+    padding: 0 20px;
+  }
+  .Work_company {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.experience{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Skills{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Projects{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+ 
 }

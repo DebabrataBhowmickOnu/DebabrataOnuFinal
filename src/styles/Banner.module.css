@@ -1,0 +1,56 @@
+
+.banner_contener{
+    padding-top: 150px;
+    height: 87vh;
+    background-image: url('../assets/images/BG_icon.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+   
+}
+.banner_content{
+  
+   
+}
+.me_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_tex{
+    font-size: 72px;
+    line-height: 77px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 53px;
+    padding-left: 70px;
+}
+.span1{
+   color: rgba(10, 232, 94, 1);
+}
+.scroll_down{
+    position: absolute;
+    bottom: -50px;
+    left: 57%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    animation: bounce 2s infinite;
+}
+@media (max-width: 768px) {
+    .banner_contener{
+        background-image: unset;    
+        padding-top: 100px;
+        height: unset;
+    }
+    .scroll_down{
+        display: none;
+    }
+    .banner_tex{
+        font-size: 35px;
+        line-height: 40px;  
+        padding-left: 0;
+    }
+  
+  }
