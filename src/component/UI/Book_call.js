@@ -19,8 +19,8 @@ const BookCall = () => {
         <div className={styles.bookCall_container}>
             <div className={styles.bookCall_contain}>
                 <h2>Book a <span>Call now!</span></h2>
-                <p>Lets collaborate to bring your vision to life. Contact me today to discuss your project and <br />
-                    lets embark on a journey to elevate your online presence together.</p>
+                <p>Let's collaborate to bring your vision to life. Contact me today to discuss your project, and <br />
+                let's embark on a journey to elevate your online presence together.</p>
             </div>
 
             <div className={styles.contact_container}>
