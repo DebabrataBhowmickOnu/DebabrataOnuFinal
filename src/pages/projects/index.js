@@ -1,5 +1,6 @@
-import React from "react"
-import styles from "@/styles/Projects.module.css";
+import ProjectsLayout from "@/component/Layout/ProjectsLayout";
+import Link from "next/link";
+import styles from "@/styles/Projectspage.module.css";
 import project from '../../assets/images/porfyri.rankupper.com.png';
 import project2 from '../../assets/images/akindoorairservices.com.png';
 import project3 from '../../assets/images/2cimages.com_.PNG';
@@ -7,14 +8,13 @@ import project4 from '../../assets/images/dreamstudio.nyc.PNG';
 import project5 from '../../assets/images/olabbd.com.PNG';
 import project6 from '../../assets/images/offshoreclipping.com.PNG';
 import project7 from '../../assets/images/httpsdusanjh.com.PNG';
+import React from "react"
 import Image from "next/image";
-import Link from "next/link";
 
-const Projects = () => {
+const Projects = (props) => {
     return (
-        <div className={styles.project_container} id="Portfolio">
-            <h2>Selected projects</h2>
-            <div className={styles.project_contain_container}>
+        <div>
+            <div className={styles.project_contain_container3}>
                 {/* project1  */}
                 <div className={styles.project_contain}>
                     <div>
@@ -95,10 +95,9 @@ const Projects = () => {
                     <Link href="https://dreamstudio.nyc/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
-            </div>
-            <div className={styles.project_contain_container2}>
-                {/* project5  */}
-                <div className={styles.project_contain}>
+
+                  {/* project5  */}
+                  <div className={styles.project_contain}>
                     <div>
                         <Image
                             src={project5}
@@ -137,7 +136,7 @@ const Projects = () => {
                     <Link href="https://offshoreclipping.com/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
-                {/* project7  */}
+                 {/* project7  */}
                 <div className={styles.project_contain}>
                     <div>
                         <Image
@@ -157,11 +156,6 @@ const Projects = () => {
                     <Link href="https://dusanjh.rankupper.com/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
-
-            </div>
-
-            <div className={styles.see_more_link_container}>
-                <Link href="/projects" className={styles.see_more_link}>SEE MORE</Link>
             </div>
 
         </div>
@@ -169,3 +163,9 @@ const Projects = () => {
 };
 
 export default Projects;
+
+Projects.getLayout = function getLayout(page) {
+    return (
+        <ProjectsLayout>{page}</ProjectsLayout>
+    );
+};
