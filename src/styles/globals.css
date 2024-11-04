@@ -18,19 +18,19 @@ html {
   scroll-behavior: smooth;
 }
 @font-face {
-  font-family: 'Sarpanch';
+  font-family: 'Monospace';
   src: url('../pages/fonts/Monospace.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Sarpanch';
+  font-family: 'Monospace';
   src: url('../pages/fonts/MonospaceOblique.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Sarpanch';
+  font-family: 'Monospace';
   src: url('../pages/fonts/MonospaceBold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
@@ -79,7 +79,7 @@ html {
 
 body {
   background: #1C1C21;
-  font-family: 'monospace', 'Arial', sans-serif;
+  font-family: 'Monospace', 'Arial', sans-serif;
 }
 
 ._cUP1np9gMvFQrcPftuf {
