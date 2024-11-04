@@ -45,7 +45,7 @@ const Testimonial = () => {
     return (
         <div className={styles.Testimonial_container} id="Testimonial">
             <div className={styles.Testimonial_container_header}>
-                <h2>Customer Testimonial</h2>
+                <h2>Client  Testimonial</h2>
                 <div>
                     <Image
                         src={project}
