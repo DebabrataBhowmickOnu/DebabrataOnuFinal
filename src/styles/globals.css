@@ -81,7 +81,7 @@ body {
   background: #1C1C21;
   /* font-family: 'Monospace', 'Arial', sans-serif; */
 }
-h1, h2, h3 {
+h1, h2, h3,a {
   font-family: 'Monospace', 'Arial', sans-serif;
 }
 p{ 
