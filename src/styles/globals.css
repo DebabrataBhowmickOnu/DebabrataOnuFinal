@@ -79,7 +79,13 @@ html {
 
 body {
   background: #1C1C21;
+  /* font-family: 'Monospace', 'Arial', sans-serif; */
+}
+h1, h2, h3 {
   font-family: 'Monospace', 'Arial', sans-serif;
+}
+p{ 
+  font-family: 'Merriweather', serif; 
 }
 
 ._cUP1np9gMvFQrcPftuf {
