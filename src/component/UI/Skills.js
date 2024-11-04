@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Skills = () => {
     return (
-        <div className={styles.skills_container}>
+        <div className={styles.skills_container} id="Skills">
             <h2>Skills</h2>
             <div className={styles.skills_contain}>
                 <div className={styles.skills_1}>
@@ -65,10 +65,10 @@ const Skills = () => {
                     <h3>Web Design</h3>
                     <ul>
                         <li>UI/UX</li>
-                        <li>Figma / Scratch</li>
-                        <li>UI/UX Audit</li>
-                        <li>Design system creation</li>
-                        <li>Responsive design testing</li>
+                        <li>Adobe XD</li>
+                        <li>framer</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
                         <li>Web UI Elements Design</li>
                     </ul>
                 </div>

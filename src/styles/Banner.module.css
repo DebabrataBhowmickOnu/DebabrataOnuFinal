@@ -1,6 +1,6 @@
 
 .banner_contener{
-    padding-top: 150px;
+    padding-top: 140px;
     height: 87vh;
     background-image: url('../assets/images/BG_icon.png');
     background-position: bottom center;
@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 80px;
 }
 .banner_tex{
     font-size: 72px;
@@ -33,11 +34,18 @@
 .scroll_down{
     position: absolute;
     bottom: -50px;
-    left: 57%;
+    left: 55%;
     transform: translateX(-50%);
     cursor: pointer;
     animation: bounce 2s infinite;
 }
+@media screen and (max-width:1400px) {
+    .banner_tex{
+        font-size: 50px;
+        line-height: 60px;
+    }
+  }
+  
 @media (max-width: 768px) {
     .banner_contener{
         background-image: unset;    
@@ -51,6 +59,9 @@
         font-size: 35px;
         line-height: 40px;  
         padding-left: 0;
+    }
+    .me_image{
+        padding-left: 0px;
     }
   
   }

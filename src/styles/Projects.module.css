@@ -59,13 +59,21 @@
     color: rgba(10, 232, 94, 1);
     position: relative;
     padding-right: 22px;
+    transition: color 0.3s ease-in-out
 
+}
+.project_link:hover{
+    color: rgba(255, 255, 255, 1);
 }
 .project_link::before{
     content: url('../assets/images/live_project_icon.png');
     position: absolute;
     right: 0;
     top: 0;
+    transition: transform 0.3s ease;
+}
+.project_link:hover::before {
+    transform: translateY(-7px); 
 }
 
 @media screen and (max-width:767px) {

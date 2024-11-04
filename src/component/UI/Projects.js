@@ -1,12 +1,18 @@
 import React from "react"
 import styles from "@/styles/Projects.module.css";
-import project from '../../assets/images/project1.png';
+import project from '../../assets/images/porfyri.rankupper.com.png';
+import project2 from '../../assets/images/akindoorairservices.com.png';
+import project3 from '../../assets/images/2cimages.com_.PNG';
+import project4 from '../../assets/images/dreamstudio.nyc.PNG';
+import project5 from '../../assets/images/olabbd.com.PNG';
+import project6 from '../../assets/images/offshoreclipping.com.PNG';
+import project7 from '../../assets/images/httpsdusanjh.com.PNG';
 import Image from "next/image";
 import Link from "next/link";
 
 const Projects = () => {
     return (
-        <div className={styles.project_container}>
+        <div className={styles.project_container} id="Portfolio">
             <h2>Selected projects</h2>
             <div className={styles.project_contain_container}>
                 {/* project1  */}
@@ -20,135 +26,135 @@ const Projects = () => {
                             className={styles.logo}
                         />
                     </div>
-                    <h3>interdum mauris amet.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Massa lectus est interdum mauris amet.</p>
+                    <h3>Professional Commercial Photographer</h3>
+                    <p>Porfyri Photography studio is based in the heart of Brisbane and services all areas around South East QLD, Australia.</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
                         <button>Web Design</button>
                     </div>
-                    <Link href="#" className={styles.project_link}>Live Prevuew</Link>
+                    <Link href="https://porfyri.rankupper.com/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
                 {/* project2  */}
                 <div className={styles.project_contain}>
                     <div>
                         <Image
-                            src={project}
+                            src={project2}
                             width={335}
                             height={227}
                             alt="Logo"
                             className={styles.logo}
                         />
                     </div>
-                    <h3>interdum mauris amet.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Massa lectus est interdum mauris amet.</p>
+                    <h3>Heating and Air Conditioning Service</h3>
+                    <p>Your doorstep solution for installing, repairing, & diverse heating & air conditioning services in Columbus.</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
                         <button>Web Design</button>
                     </div>
-                    <Link href="#" className={styles.project_link}>Live Prevuew</Link>
+                    <Link href="https://akindoorairservices.com/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
                  {/* project3  */}
                 <div className={styles.project_contain}>
                     <div>
                         <Image
-                            src={project}
+                            src={project3}
                             width={335}
                             height={227}
                             alt="Logo"
                             className={styles.logo}
                         />
                     </div>
-                    <h3>interdum mauris amet.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Massa lectus est interdum mauris amet.</p>
+                    <h3>Connecticut Commercial Photographer.</h3>
+                    <p>CONNECTICUT COMMERCIAL PHOTOGRAPHER.Every moment is worth preserving – to feel, touch, and relive</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
                         <button>Web Design</button>
                     </div>
-                    <Link href="#" className={styles.project_link}>Live Prevuew</Link>
+                    <Link href="https://2cimages.com/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
                  {/* project4  */}
                 <div className={styles.project_contain}>
                     <div>
                         <Image
-                            src={project}
+                            src={project4}
                             width={335}
                             height={227}
                             alt="Logo"
                             className={styles.logo}
                         />
                     </div>
-                    <h3>interdum mauris amet.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Massa lectus est interdum mauris amet.</p>
+                    <h3>Dreamstudio</h3>
+                    <p>Changing the Meaning of Full-Service Innovative Production Techniques.Each photograph an organization produces ought to resonate with its audience.</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
                         <button>Web Design</button>
                     </div>
-                    <Link href="#" className={styles.project_link}>Live Prevuew</Link>
+                    <Link href="https://dreamstudio.nyc/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
             </div>
             <div className={styles.project_contain_container2}>
-                {/* project1  */}
+                {/* project5  */}
                 <div className={styles.project_contain}>
                     <div>
                         <Image
-                            src={project}
+                            src={project5}
                             width={335}
                             height={227}
                             alt="Logo"
                             className={styles.logo}
                         />
                     </div>
-                    <h3>interdum mauris amet.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Massa lectus est interdum mauris amet.</p>
+                    <h3>Olabbd</h3>
+                    <p>Acquire New Skills Through Interactive, Live Sessions with Industry Experts.</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
                         <button>Web Design</button>
                     </div>
-                    <Link href="#" className={styles.project_link}>Live Prevuew</Link>
+                    <Link href="https://olabbd.com/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
-                {/* project2  */}
+                {/* project6  */}
                 <div className={styles.project_contain}>
                     <div>
                         <Image
-                            src={project}
+                            src={project6}
                             width={335}
                             height={227}
                             alt="Logo"
                             className={styles.logo}
                         />
                     </div>
-                    <h3>interdum mauris amet.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Massa lectus est interdum mauris amet.</p>
+                    <h3>offshoreclipping</h3>
+                    <p>Elevate Every Photo With Professional Clipping Path Services.</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
                         <button>Web Design</button>
                     </div>
-                    <Link href="#" className={styles.project_link}>Live Prevuew</Link>
+                    <Link href="https://offshoreclipping.com/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
-                 {/* project3  */}
+                 {/* project7  */}
                 <div className={styles.project_contain}>
                     <div>
                         <Image
-                            src={project}
+                            src={project7}
                             width={335}
                             height={227}
                             alt="Logo"
                             className={styles.logo}
                         />
                     </div>
-                    <h3>interdum mauris amet.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur. Massa lectus est interdum mauris amet.</p>
+                    <h3>Dusanjh Productions</h3>
+                    <p>Your moments, our passion.Preserving life's precious moments</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
                         <button>Web Design</button>
                     </div>
-                    <Link href="#" className={styles.project_link}>Live Prevuew</Link>
+                    <Link href="https://dusanjh.rankupper.com/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
                

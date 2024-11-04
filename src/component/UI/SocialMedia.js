@@ -10,7 +10,7 @@ const SocialMedia = () => {
     return (
         <div className={styles.SocialMedia_container}>
             <div>
-                <Link href="#">
+                <Link href="https://www.linkedin.com/in/debabrata-bhowmick">
                     <Image
                         src={logo1}
                         width={38}
@@ -20,7 +20,7 @@ const SocialMedia = () => {
                 </Link>
             </div>
             <div>
-                <Link href="#">
+                <Link href="mailto:debabrata.dev.ru@gmail.com">
                     <Image
                         src={logo2}
                         width={38}
@@ -30,7 +30,7 @@ const SocialMedia = () => {
                 </Link>
             </div>
             <div>
-                <Link href="#">
+                <Link  href="https://wa.me/+8801770556351" target="_blank" >
                     <Image
                         src={logo3}
                         width={38}
@@ -41,7 +41,7 @@ const SocialMedia = () => {
                 </Link>
             </div>
             <div>
-                <Link  href="#">
+                <Link  href="https://www.behance.net/debabrabhowmick">
                     <Image
                         src={logo4}
                         width={38}

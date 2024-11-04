@@ -10,13 +10,13 @@ const Footer = () => {
         <div className={styles.footer_container}>
             <div className={styles.footer_contain}>
                 <div className={styles.call}>
-                    <p><span>Call me</span> +8801613968687</p>
+                    <p><span>Call me</span> +8801770556351</p>
                 </div>
                 <div className={styles.address}>
                     <p><span>Address</span> Lalmatia, Dhaka-1207</p>
                 </div>
                 <div className={styles.email}>
-                    <p><span>Email</span> ahmedtanvir8687@gmail.com</p>
+                    <p><span>Email</span> debabrata.dev.ru@gmail.com</p>
                 </div>
             </div>
 
@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className={styles.social_icon_container}>
                     <h3>Find me</h3>
                     <div className={styles.social_icon}>
-                        <Link href="#" >
+                        <Link href="https://www.linkedin.com/in/debabrata-bhowmick" >
                             <Image
                                 src={icon1}
                                 width={20}
@@ -32,7 +32,7 @@ const Footer = () => {
                                 alt="social"
                             />
                         </Link>
-                        <Link href="#" >
+                        <Link href="https://www.facebook.com/ononno.anu.5?mibextid=LQQJ4d" >
                             <Image
                                 src={icon2}
                                 width={20}

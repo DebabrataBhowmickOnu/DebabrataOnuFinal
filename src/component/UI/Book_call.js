@@ -16,7 +16,7 @@ const BookCall = () => {
     }, []);
 
     return (
-        <div className={styles.bookCall_container}>
+        <div className={styles.bookCall_container} id="GET_IN_TOUCH">
             <div className={styles.bookCall_contain}>
                 <h2>Book a <span>Call now!</span></h2>
                 <p>Let's collaborate to bring your vision to life. Contact me today to discuss your project, and <br />

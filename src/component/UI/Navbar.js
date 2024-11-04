@@ -65,10 +65,10 @@ const Navbar = () => {
                     </div>
                     <ul>
                         <li onClick={closeMenu}><Link href="#Why_Me">Why Me?</Link></li>
-                        <li onClick={closeMenu}><Link href="#">Skills</Link></li>
-                        <li onClick={closeMenu}><Link href="#">Portfolio</Link></li>
-                        <li onClick={closeMenu}><Link href="#">Testimonial</Link></li>
-                        <button onClick={closeMenu}><Link href="#">GET IN TOUCH</Link></button>
+                        <li onClick={closeMenu}><Link href="#Skills">Skills</Link></li>
+                        <li onClick={closeMenu}><Link href="#Portfolio">Portfolio</Link></li>
+                        <li onClick={closeMenu}><Link href="#Testimonial">Testimonial</Link></li>
+                        <button onClick={closeMenu}><Link href="#GET_IN_TOUCH">GET IN TOUCH</Link></button>
                     </ul>
                 </div>
             </div>
