@@ -8,6 +8,8 @@ import project4 from '../../assets/images/dreamstudio.nyc.PNG';
 import project5 from '../../assets/images/olabbd.com.PNG';
 import project6 from '../../assets/images/offshoreclipping.com.PNG';
 import project7 from '../../assets/images/httpsdusanjh.com.PNG';
+import project8 from '../../assets/images/clippingpathstudio.com.PNG';
+import project9 from '../../assets/images/rankupper.com.PNG';
 import React from "react"
 import Image from "next/image";
 
@@ -86,7 +88,7 @@ const Projects = (props) => {
                             className={styles.logo}
                         />
                     </div>
-                    <h3>Dreamstudio</h3>
+                    <h3>Dream studio</h3>
                     <p>Changing the Meaning of Full-Service Innovative Production Techniques.Each photograph an organization produces ought to resonate with its audience.</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
@@ -96,8 +98,8 @@ const Projects = (props) => {
 
                 </div>
 
-                  {/* project5  */}
-                  <div className={styles.project_contain}>
+                {/* project5  */}
+                <div className={styles.project_contain}>
                     <div>
                         <Image
                             src={project5}
@@ -127,7 +129,7 @@ const Projects = (props) => {
                             className={styles.logo}
                         />
                     </div>
-                    <h3>offshoreclipping</h3>
+                    <h3>offshore clipping</h3>
                     <p>Elevate Every Photo With Professional Clipping Path Services.</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
@@ -154,6 +156,46 @@ const Projects = (props) => {
                         <button>Web Design</button>
                     </div>
                     <Link href="https://dusanjh.rankupper.com/" className={styles.project_link}>Live Prevuew</Link>
+
+                </div>
+                 {/* project8  */}
+                <div className={styles.project_contain}>
+                    <div>
+                        <Image
+                            src={project8}
+                            width={335}
+                            height={227}
+                            alt="Logo"
+                            className={styles.logo}
+                        />
+                    </div>
+                    <h3>Clipping Path Services</h3>
+                    <p>Searching for top-quality Photoshop services to make your images stand out? Our team of qualified professionals can make your pictures pop.</p>
+                    <div className={styles.button_container}>
+                        <button>Web Development</button>
+                        <button>Web Design</button>
+                    </div>
+                    <Link href="https://clippingpathstudio.com/" className={styles.project_link}>Live Prevuew</Link>
+
+                </div>
+                 {/* project9  */}
+                <div className={styles.project_contain}>
+                    <div>
+                        <Image
+                            src={project9}
+                            width={335}
+                            height={227}
+                            alt="Logo"
+                            className={styles.logo}
+                        />
+                    </div>
+                    <h3>Rankupper</h3>
+                    <p>The Voice of Your Brand That Understands Your Business. A full-fledged revenue-generating B2B digital marketing agency</p>
+                    <div className={styles.button_container}>
+                        <button>Web Development</button>
+                        <button>Web Design</button>
+                    </div>
+                    <Link href="https://clippingpathstudio.com/" className={styles.project_link}>Live Prevuew</Link>
 
                 </div>
             </div>

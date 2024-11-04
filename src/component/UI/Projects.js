@@ -86,7 +86,7 @@ const Projects = () => {
                             className={styles.logo}
                         />
                     </div>
-                    <h3>Dreamstudio</h3>
+                    <h3>Dream studio</h3>
                     <p>Changing the Meaning of Full-Service Innovative Production Techniques.Each photograph an organization produces ought to resonate with its audience.</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
@@ -128,7 +128,7 @@ const Projects = () => {
                             className={styles.logo}
                         />
                     </div>
-                    <h3>offshoreclipping</h3>
+                    <h3>offshore clipping</h3>
                     <p>Elevate Every Photo With Professional Clipping Path Services.</p>
                     <div className={styles.button_container}>
                         <button>Web Development</button>
