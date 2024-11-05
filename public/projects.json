@@ -1,0 +1,93 @@
+[
+    {
+      "id": "project1",
+      "projectName": "Professional Commercial Photographer",
+      "projectType": "Photography",
+      "liveProjectLink": "https://porfyri.rankupper.com/",
+      "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2024/11/porfyri.rankupper.com_.png",
+      "projectDescription": "Porfyri Photography studio is based in the heart of Brisbane and services all areas around South East QLD, Australia.",
+      "tags1": "Web Development",
+      "tags2": "Web Design"
+    },
+    {
+      "id": "project2",
+      "projectName": "Heating and Air Conditioning Service",
+      "projectType": "Services",
+      "liveProjectLink": "https://akindoorairservices.com/",
+      "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2024/11/akindoorairservices.com_.png",
+      "projectDescription": "Your doorstep solution for installing, repairing, & diverse heating & air conditioning services in Columbus.",
+      "tags1": "Web Development",
+      "tags2": "Web Design"
+    },
+    {
+      "id": "project3",
+      "projectName": "Connecticut Commercial Photographer",
+      "projectType": "Photography",
+      "liveProjectLink": "https://2cimages.com/",
+      "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2024/11/2cimages.com_.png",
+      "projectDescription": "CONNECTICUT COMMERCIAL PHOTOGRAPHER. Every moment is worth preserving – to feel, touch, and relive.",
+      "tags1": "Web Development",
+      "tags2": "Web Design"
+    },
+    {
+      "id": "project4",
+      "projectName": "Dream Studio",
+      "projectType": "Photography",
+      "liveProjectLink": "https://dreamstudio.nyc/",
+      "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2024/11/dreamstudio.nyc_.png",
+      "projectDescription": "Changing the Meaning of Full-Service Innovative Production Techniques. Each photograph an organization produces ought to resonate with its audience.",
+      "tags1": "Web Development",
+      "tags2": "Web Design"
+    },
+    {
+      "id": "project5",
+      "projectName": "Olabbd",
+      "projectType": "Education",
+      "liveProjectLink": "https://olabbd.com/",
+      "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2024/11/olabbd.com_.png",
+      "projectDescription": "Acquire New Skills Through Interactive, Live Sessions with Industry Experts.",
+      "tags1": "Web Development",
+      "tags2": "Web Design"
+    },
+    {
+      "id": "project6",
+      "projectName": "Offshore Clipping",
+      "projectType": "Services",
+      "liveProjectLink": "https://offshoreclipping.com/",
+      "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2024/11/offshoreclipping.com_.png",
+      "projectDescription": "Elevate Every Photo With Professional Clipping Path Services.",
+      "tags1": "Web Development",
+      "tags2": "Web Design"
+    },
+    {
+      "id": "project7",
+      "projectName": "Dusanjh Productions",
+      "projectType": "Photography",
+      "liveProjectLink": "https://dusanjh.rankupper.com/",
+      "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2024/11/httpsdusanjh.com_.png",
+      "projectDescription": "Your moments, our passion. Preserving life's precious moments.",
+      "tags1": "Web Development",
+      "tags2": "Web Design"
+    },
+    {
+      "id": "project8",
+      "projectName": "Clipping Path Services",
+      "projectType": "Services",
+      "liveProjectLink": "https://clippingpathstudio.com/",
+      "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2024/11/clippingpathstudio.com_.png",
+      "projectDescription": "Searching for top-quality Photoshop services to make your images stand out? Our team of qualified professionals can make your pictures pop.",
+      "tags1": "Web Development",
+      "tags2": "Web Design"
+    },
+    {
+      "id": "project9",
+      "projectName": "Rankupper",
+      "projectType": "Digital Marketing",
+      "liveProjectLink": "https://clippingpathstudio.com/",
+      "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2024/11/rankupper.com_.png",
+      "projectDescription": "The Voice of Your Brand That Understands Your Business. A full-fledged revenue-generating B2B digital marketing agency.",
+      "tags1": "Web Development",
+      "tags2": "Web Design"
+    }
+  ]
+  
