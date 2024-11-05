@@ -52,16 +52,25 @@
     padding-right: 15px;
 }
 .email p{
-    padding-left: 30px;
     position: relative;
+    text-align: end;
 }
-.email p::before{
+/* .email p::before{
     content: url('../assets/images/email.png');
     position: absolute;
     left: 0;
     top: -2px;
+} */
+.email_span{
+    position: relative;
+    padding-left: 40px;
 }
-
+.email_span::before{
+    content: url('../assets/images/email.png');
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
 .social_logo_container{
     display: flex;
     justify-content: center;
@@ -104,9 +113,7 @@
     .email{
         text-align: start;
        }
-    .email span{
-       padding-left: 15px;
-    }
+   
   }
 
 @media screen and (max-width:767px) {

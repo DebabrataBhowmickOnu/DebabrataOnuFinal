@@ -16,7 +16,7 @@ const Footer = () => {
                     <p><span>Address</span> Lalmatia, Dhaka-1207</p>
                 </div>
                 <div className={styles.email}>
-                    <p><span>Email</span> debabrata.dev.ru@gmail.com</p>
+                    <p><span className={styles.email_span}>Email</span> debabrata.dev.ru@gmail.com</p>
                 </div>
             </div>
 
