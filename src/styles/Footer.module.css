@@ -55,12 +55,6 @@
     position: relative;
     text-align: end;
 }
-/* .email p::before{
-    content: url('../assets/images/email.png');
-    position: absolute;
-    left: 0;
-    top: -2px;
-} */
 .email_span{
     position: relative;
     padding-left: 40px;

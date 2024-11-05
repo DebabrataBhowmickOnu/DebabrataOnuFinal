@@ -9,10 +9,7 @@
     position: relative;
    
 }
-.banner_content{
-  
-   
-}
+
 .me_image{
     display: flex;
     justify-content: center;
@@ -43,6 +40,9 @@
     .banner_tex{
         font-size: 50px;
         line-height: 60px;
+    }
+    .banner_contener{
+        padding-top: 40px; 
     }
   }
   
