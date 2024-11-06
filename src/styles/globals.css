@@ -151,7 +151,7 @@ p{
 .pagination button:hover {
   background-color: #005bb5;
 }
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1700px) {
   .main_container {
     padding-left: 5%;
     padding-right: 5%;

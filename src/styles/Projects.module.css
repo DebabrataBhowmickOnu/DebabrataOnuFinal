@@ -1,8 +1,8 @@
 .project_contain_container {
     margin-top: 70px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
 }
 
 .project_contain_container img {
@@ -100,7 +100,7 @@
 .see_more_link {
     background: rgba(202, 246, 224, 0.08);
     border-radius: 20px;
-    padding: 10px 25px;
+    padding: 13px 30px;
     color: rgba(10, 232, 94, 1);
     transition: all 0.3s ease-in-out;
     font-size: 18px;

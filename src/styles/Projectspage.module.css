@@ -43,10 +43,11 @@
     width: 100%;
 }
 .project_contain{
-    height: 550px;
     position: relative;
     background: rgba(36, 36, 36, 1);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-bottom: 20px;
+    border-radius: 20px;
 }
 .project_container h2{
     text-align: center;
@@ -93,8 +94,8 @@
     position: relative;
     padding-right: 22px;
     transition: color 0.3s ease-in-out;
-    position: absolute;
-    bottom: 15px;
+    /* position: absolute;
+    bottom: 15px; */
     padding: 0 15px;
 }
 .project_link:hover{
@@ -112,20 +113,27 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1499px) {
-    .project_contain_container3 .project_contain{
-        height: 570px;
+   
+    .project_contain{
+        height: 550px;
         position: relative;
         background: rgba(36, 36, 36, 1);
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        padding-bottom: 0px;
     }
-    .project_contain_container3 .button_container {
+    .button_container {
         display: flex;
         flex-direction: column;
         align-items: start;
     }
-    .project_contain_container3 .button_container button {
+    .button_container button {
        width: 100%;
        margin-bottom: 10px;
+    }
+    .project_link{
+
+        position: absolute;
+        bottom: 15px;
     }
     
     

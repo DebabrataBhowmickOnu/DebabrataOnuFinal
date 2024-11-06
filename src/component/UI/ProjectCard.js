@@ -2,6 +2,13 @@ import React from "react"
 import styles from "@/styles/Projectspage.module.css";
 import Link from "next/link";
 import Image from "next/image";
+
+const truncateText = (text, charLimit) => {
+    if (text.length > charLimit) {
+        return text.slice(0, charLimit) + " ...";
+    }
+    return text;
+};
 const ProjectCard = ({ project }) => {
     return (
         <div key={project.id}>
@@ -16,7 +23,7 @@ const ProjectCard = ({ project }) => {
                     />
                 </div>
                 <h3>{project.projectName}</h3>
-                <p>{project.projectDescription}</p>
+                <p>{truncateText(project.projectDescription, 100)}</p>
                 <div className={styles.button_container}>
                     <button>{project.tags1}</button>
                     <button>{project.tags2}</button>
