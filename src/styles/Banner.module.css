@@ -36,6 +36,15 @@
     cursor: pointer;
     animation: bounce 2s infinite;
 }
+@media screen and (min-width: 1401px) and (max-width: 1750px)  {
+    .banner_tex{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .banner_contener{
+        padding-top: 80px; 
+    }
+  }
 @media screen and (max-width:1400px) {
     .banner_tex{
         font-size: 50px;
