@@ -151,12 +151,6 @@ p{
 .pagination button:hover {
   background-color: #005bb5;
 }
-@media screen and (max-width:1700px) {
-  .main_container {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-}
 
 .my-slider {
   transition-timing-function: linear !important;
@@ -204,6 +198,12 @@ p{
 .tns-nav {
   position: absolute;
   bottom: 42px;
+}
+@media screen and (max-width:1700px) {
+  .main_container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 @media (max-width: 768px) {

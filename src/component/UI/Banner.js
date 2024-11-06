@@ -18,7 +18,7 @@ const Banner = () => {
                         />
                     </div>
                     <div className={styles.banner_tex}>
-                        <h1>I am  a Full Stack<br></br> <span className={styles.span1}>WordPress </span> <span>Developer</span></h1>
+                        <h1>I am  a <span className={styles.span1}>Full Stack</span><br></br> Web <span>Developer</span></h1>
                     </div>
                 </div>
 
