@@ -7,7 +7,6 @@ import Link from "next/link";
 const Banner = () => {
   return (
     <div className={styles.banner_contener}>
-      <h2>Hello</h2>
       <div className={styles.banner_content}>
         <div>
           <div className={styles.me_image}>
