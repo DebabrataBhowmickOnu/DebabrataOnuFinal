@@ -1,4 +1,14 @@
 [
+    {
+    "id": "project11",
+    "projectName": "Professional Commercial Photographer",
+    "projectType": "Podcast",
+    "liveProjectLink": "https://abbymedcalf.com/",
+    "projectImageUrl": "https://offshoreclipping.com/wp-content/uploads/2025/06/portfolio11.png",
+    "projectDescription": "The Relationships Made Easy podcast offers expert insights and practical tips to help listeners build stronger, healthier connections.",
+    "tags1": "Web Development",
+    "tags2": "Web Design"
+  },
   {
     "id": "project1",
     "projectName": "Professional Commercial Photographer",
